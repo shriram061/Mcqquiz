@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+    /* background-color: yellow */
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    
+    
+}
+#q1,#q2,#q3,#q4,#q5
+{
+    border: 1px solid black;
+    background-color: white;
+    
+    
+}
+main
+{
+ display: flex;
+ justify-content: center;
+}
+body{
+    background-color: yellow;
+}
+p{
+  color: blue;
+}
+#a
+{
+    color: black;
+}
+#ans
+{
+    display: flex;
+    justify-content: center;
+}
+#buans
+{
+    padding: 20px;
+    color: red;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
+.ans
+{
+display: flex;
+justify-content: center;
+color: blue;
+}
+hr{
+    padding: 2px;
+    color: black;
+    background-color: black;
+}
