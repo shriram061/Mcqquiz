@@ -17,16 +17,17 @@ header
 {
     border: 1px solid black;
     background-color: white;
-    
+    padding: 2vh 2vw;
     
 }
 main
 {
  display: flex;
  justify-content: center;
+ padding: 16vh 0 0 0;
 }
 body{
-    background-color: yellow;
+    background-color: rgb(255, 251, 0);
 }
 p{
   color: blue;
@@ -49,7 +50,8 @@ p{
 footer{
     display: flex;
     justify-content: center;
-    
+    background-color: rgba(11,13,48,255);
+    /* color: white; */
 }
 .ans
 {
@@ -61,4 +63,58 @@ hr{
     padding: 2px;
     color: black;
     background-color: black;
+}
+input,label
+{
+    cursor: pointer;
+}
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #f50000;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+    
+}
+#q1c:checked:after,#q2d:checked:after,#q3d:checked:after,#q4b:checked:after,#q5a:checked:after  {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #62f500;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+header
+{
+    background-color: rgb(47, 172, 255);
+    
+    overflow: hidden;
+    
+    position: fixed;
+    top: 0;
+     width: 100vw; 
+     
+}
+nav
+{
+    color: yellow;
+    background-color: rgba(11,13,48,255);
+    display: flex;
+    justify-content: center;
+}
+#ps
+{
+    color: rgb(244, 244, 247);
+
 }
