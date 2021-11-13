@@ -44,8 +44,15 @@ p{
 #buans
 {
     padding: 20px;
-    color: red;
+    color: black;
     border-radius: 10px;
+    background-color: #2e7201;
+}
+#buans:hover
+{
+    background-color: #46573b;
+    color: white;
+
 }
 footer{
     display: flex;
