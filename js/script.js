@@ -64,7 +64,7 @@ else if(d==5)
 }
 else
 {
-
+alert("ATTEMPT THE QUESTIONS!! YOU HAVE NOT EVEN ATTEMPTED A SINGLE QUESTION");
 }
 // document.write("In 5 questions, Your Marks out of 5 is " + d + "<br>"+"<br>"+"<br>"+ "Question1- Vivek Express is the longest running train." +"<br>"+"<br>"+"<br>"+ "Question2- Allahabad–New Delhi Humsafar Express is the longest non stop train." +"<br>"+"<br>"+"<br>"+ "Question3- M S Dhoni worked in Kharagpur Div" +"<br>"+"<br>"+"<br>"+ "Question4- The name of the exhibition train is Sanskriti Express" +"<br>"+"<br>"+"<br>"+ "Question5- There are total of 70 divisions"  +"<br>"+"<br>"+"<br>"+ "RELOAD THE PAGE FOR AGAIN ATTEMPTING THE QUIZ" );
 }
