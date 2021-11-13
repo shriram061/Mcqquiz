@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="KOczxRrrDFDSDcA4HaFq3mYVl-FuXlxvILC4GpMVtPY" />
     <title>MCQ QUIZ </title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,42 +24,91 @@
     <form name="quiz" id="quiz">
         <div id="q1">
             <p>Q1) Which train is the longest running train in India?</p><br>
-            <p id="a"><input type="radio" name="question1" id="q1a" value="Shri Mata Vaishno Devi Katra-Kanyakumari Himsagar Express"><label for="q1a">Shri Mata Vaishno Devi Katra-Kanyakumari Himsagar Express</label></p>
-            <p id="a"><input type="radio" name="question1" id="q1b" value="Thiruvananthapuram Central-Silchar Aronai Express"><label for="q1b">Thiruvananthapuram Central-Silchar Aronai Express</label></p>
-            <p id="a"><input type="radio" name="question1" id="q1c" value="Dibrugarh-Kanyakumari Vivek Express"><label for="q1c">Dibrugarh-Kanyakumari Vivek Express</label></p>
-            <p id="a"><input type="radio" name="question1" id="q1d" value="Bangalore Cantonment–Agartala Humsafar Express"><label for="q1d">Bangalore Cantonment–Agartala Humsafar Express</label></p>
+            <p id="a"><input type="radio" name="question1" id="q1a" onclick="myFunction1()"
+                 value="Shri Mata Vaishno Devi Katra-Kanyakumari Himsagar Express">
+                 <label for="q1a">Shri Mata Vaishno Devi Katra-Kanyakumari Himsagar Express</label></p>
+            <p id="a"><input type="radio" name="question1" id="q1b" onclick="myFunction1()"
+                value="Thiruvananthapuram Central-Silchar Aronai Express">
+                <label for="q1b">Thiruvananthapuram Central-Silchar Aronai Express</label></p>
+            <p id="a"><input type="radio" name="question1" id="q1c" onclick="myFunction1()"
+                value="Dibrugarh-Kanyakumari Vivek Express">
+                <label for="q1c">Dibrugarh-Kanyakumari Vivek Express</label></p>
+            <p id="a"><input type="radio" name="question1" id="q1d" onclick="myFunction1()"
+                value="Bangalore Cantonment–Agartala Humsafar Express">
+                <label for="q1d">Bangalore Cantonment–Agartala Humsafar Express</label></p>
+                <p id="ps1"></p>
         </div>
 <br>
         <div id="q2">
             <p>Q2) Which train is the Longest non-stop run in Indian Railways by distance?</p><br>
-            <p id="a"><input type="radio" name="question2" id="q2a" value="Yeshvantapur–Delhi Sarai Rohilla AC Duronto Express"><label for="q2a">Yeshvantapur–Delhi Sarai Rohilla AC Duronto Express</label></p>
-            <p id="a"><input type="radio" name="question2" id="q2b" value="Mumbai Central–Rajkot Duronto Express"><label for="q2b">Mumbai Central–Rajkot Duronto Express</label></p>
-            <p id="a"><input type="radio" name="question2" id="q2c" value="Chennai Central–Hazrat Nizamuddin Garib Rath Express"><label for="q2c">Chennai Central–Hazrat Nizamuddin Garib Rath Express</label></p>
-            <p id="a"><input type="radio" name="question2" id="q2d" value="Allahabad–New Delhi Humsafar Express"><label for="q2d">Allahabad–New Delhi Humsafar Express</label></p>
+            <p id="a"><input type="radio" name="question2" id="q2a" onclick="myFunction2()"
+                value="Yeshvantapur–Delhi Sarai Rohilla AC Duronto Express">
+                <label for="q2a">Yeshvantapur–Delhi Sarai Rohilla AC Duronto Express</label></p>
+            <p id="a"><input type="radio" name="question2" id="q2b" onclick="myFunction2()"
+                value="Mumbai Central–Rajkot Duronto Express">
+                <label for="q2b">Mumbai Central–Rajkot Duronto Express</label></p>
+            <p id="a"><input type="radio" name="question2" id="q2c" onclick="myFunction2()"
+                value="Chennai Central–Hazrat Nizamuddin Garib Rath Express">
+                <label for="q2c">Chennai Central–Hazrat Nizamuddin Garib Rath Express</label></p>
+            <p id="a"><input type="radio" name="question2" id="q2d" onclick="myFunction2()"
+                value="Allahabad–New Delhi Humsafar Express">
+                <label for="q2d">Allahabad–New Delhi Humsafar Express</label></p>
+                <p id="ps2"></p>
+
         </div>
 <br>
         <div id="q3">
             <p>Q3) M S Dhoni worked in which Division of  South Eastern Railway ?</p><br>
-            <p id="a"><input type="radio" name="question3" id="q3a" value="Patna Div"><label for="q3a">Patna Div</label></p>
-            <p id="a"><input type="radio" name="question3" id="q3b" value="Chakradharpur Div"><label for="q3b">Chakradharpur Div</label></p>
-            <p id="a"><input type="radio" name="question3" id="q3c" value="Ranchi Div"><label for="q3c">Ranchi Div</label></p>
-            <p id="a"><input type="radio" name="question3" id="q3d" value="Kharagpur Div"><label for="q3d">Kharagpur Div</label></p>
+            <p id="a"><input type="radio" name="question3" id="q3a" onclick="myFunction3()"
+                value="Patna Div">
+                <label for="q3a">Patna Div</label></p>
+            <p id="a"><input type="radio" name="question3" id="q3b" onclick="myFunction3()"
+                value="Chakradharpur Div">
+                <label for="q3b">Chakradharpur Div</label></p>
+            <p id="a"><input type="radio" name="question3" id="q3c" onclick="myFunction3()"
+                value="Ranchi Div">
+                <label for="q3c">Ranchi Div</label></p>
+            <p id="a"><input type="radio" name="question3" id="q3d" onclick="myFunction3()"
+                value="Kharagpur Div">
+                <label for="q3d">Kharagpur Div</label></p>
+                <p id="ps3"></p>
+
         </div>
 <br>
         <div id="q4">
             <p>Q4) An exhibition train was run by the Indian Railways to celebrate Rabindranath Tagore's 150th birth anniversary. What was the name of the exhibition train ?</p><br>
-            <p id="a"><input type="radio" name="question4" id="q4a" value="Himsagar Express"><label for="q4a">Himsagar Express</label></p>
-            <p id="a"><input type="radio" name="question4" id="q4b" value="Sanskriti Express"><label for="q4b">Sanskriti Express</label></p>
-            <p id="a"><input type="radio" name="question4" id="q4c" value="Vivek Express"><label for="q4c">Vivek Express</label></p>
-            <p id="a"><input type="radio" name="question4" id="q4d" value="Vande Bharath Express"><label for="q4d">Vande Bharath Express</label></p>
+            <p id="a"><input type="radio" name="question4" id="q4a" onclick="myFunction4()"
+                value="Himsagar Express">
+                <label for="q4a">Himsagar Express</label></p>
+            <p id="a"><input type="radio" name="question4" id="q4b" onclick="myFunction4()"
+                value="Sanskriti Express">
+                <label for="q4b">Sanskriti Express</label></p>
+            <p id="a"><input type="radio" name="question4" id="q4c" onclick="myFunction4()"
+                value="Vivek Express">
+                <label for="q4c">Vivek Express</label></p>
+            <p id="a"><input type="radio" name="question4" id="q4d" onclick="myFunction4()"
+                value="Vande Bharath Express">
+                <label for="q4d">Vande Bharath Express</label></p>
+                <p id="ps4"></p>
+
         </div>
 <br>
         <div id="q5">
             <p>Q5) How many Division are there in IR ?</p><br>
-            <p id="a"><input type="radio" name="question5" id="q5a" value="70"><label for="q5a">70</label></p>
-            <p id="a"><input type="radio" name="question5" id="q5b" value="6"><label for="q5b">6</label></p>
-            <p id="a"><input type="radio" name="question5" id="q5c" value="14"><label for="q5c">14</label></p>
-            <p id="a"><input type="radio" name="question5" id="q5d" value="20"><label for="q5d">20</label></p>
+            <p id="a"><input type="radio" name="question5" id="q5a" onclick="myFunction5()"
+                value="70">
+                <label for="q5a">70</label></p>
+            <p id="a"><input type="radio" name="question5" id="q5b" onclick="myFunction5()"
+                value="6">
+                <label for="q5b">6</label></p>
+            <p id="a"><input type="radio" name="question5" id="q5c" onclick="myFunction5()"
+                value="14">
+                <label for="q5c">14</label></p>
+            <p id="a"><input type="radio" name="question5" id="q5d" onclick="myFunction5()"
+                value="20">
+                <label for="q5d">20</label></p>
+                <p id="ps5"></p>
+
         </div>
         <br>
         <div id="ans">
@@ -74,7 +124,7 @@
 <br>
 <hr>
 <footer>
-<p>Project By Subashriram K</p>
+<p id="ps">Project By Subashriram K</p>
 </footer>
 <hr>
     <script src="js/script.js"></script>
