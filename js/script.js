@@ -62,6 +62,11 @@ else if(d==5)
     alert("IN THE 5 QUESTIONS ASKED, YOUR MARKS OUT OF 5 IS " + d+'\n'+"YOU HAVE DONE IT "+'\n'+"OUTSTANDING MATE!!!!!!!!");
 
 }
+    else if(d==0)
+{
+    alert("IN THE 5 QUESTIONS ASKED, YOUR MARKS OUT OF 5 IS " + d+'\n'+"YOU HAVE TO IMPROVE A LOT MATE!!!!! "+'\n'+"TAKE RETEST ");
+
+}
 else
 {
 alert("ATTEMPT THE QUESTIONS!! YOU HAVE NOT EVEN ATTEMPTED A SINGLE QUESTION");
